@@ -4,7 +4,7 @@
 
 ### [简体中文](https://github.com/hackintosh-club/ERYING-B760I-OpenCore)
 
-[OpenCore 0.9.6](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 0.9.7](https://github.com/acidanthera/OpenCorePkg)
 
 ### OS Version Tested
 
