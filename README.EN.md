@@ -4,13 +4,13 @@
 
 ### [简体中文](https://github.com/hackintosh-club/ERYING-B760I-OpenCore)
 
-[OpenCore 0.9.7](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 0.9.9](https://github.com/acidanthera/OpenCorePkg)
 
 ### OS Version Tested
 
-- macOS Monterey 12.x
-- macOS Ventura  13.x 
-- macOS Sonoma 14.x
+- macOS Monterey  12.x
+- macOS Ventura     13.x 
+- macOS Sonoma    14.x
 
 ### Hardware
 
@@ -19,7 +19,7 @@
 - CPU: Intel 12th i5-12400
 - RAM: Kingbank C18  32G（16G*2）DDR4 3600MHz
 - SSD: J.ZAO KP SERIES 2TB Windows + MacOS
-- iGPU: Intel UHD Graphic 730 (Only work in Windows)
+- iGPU: Intel UHD Graphic 770 (Only work in Windows)
 - GPU: Sapphire RX580 2304 SP
 - Audio: Realtek ALC897
 - WiFi: Intel AX211
@@ -29,7 +29,7 @@
 ### Notes
 
  - Use [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) or [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) build your SMBIOS
- - Intel AX211 WiFi driver ([AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)in this EFI is only applicable to MacOS 14 Sonoma. Please download and replace this driver yourself when installing other MacOS versions
+ - Intel AX211 WiFi driver [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)in this EFI is only applicable to MacOS 14.4 Sonoma Below. Please download and replace this driver yourself when installing other MacOS versions
  - To use a CPU with a Efficient-core, the Kernel - ProvideCurrentCpuinfo option in the configuration file must be checked
 
 ### Bios Setup
@@ -49,7 +49,7 @@ Advanced
  
 Chipset
   |-- Primary Display : Auto
-  |-- VT-d : Disabled
+  |-- VT-d : Enabled
 
 Boot
   |-- Fast Boot : Disabled
