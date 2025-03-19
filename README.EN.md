@@ -4,13 +4,14 @@
 
 ### [简体中文](https://github.com/hackintosh-club/ERYING-B760I-OpenCore)
 
-[OpenCore 0.9.9](https://github.com/acidanthera/OpenCorePkg)
+[OpenCore 1.0.4](https://github.com/acidanthera/OpenCorePkg)
 
 ### OS Version Tested
 
 - macOS Monterey  12.x
 - macOS Ventura     13.x 
 - macOS Sonoma    14.x
+- macOS Sonoma    15.x
 
 ### Hardware
 
@@ -28,8 +29,9 @@
 
 ### Notes
 
- - Use [OpenCore Configurator](https://mackie100projects.altervista.org/opencore-configurator/) or [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) build your SMBIOS
- - Intel AX211 WiFi driver [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)in this EFI is only applicable to MacOS 14.4 Sonoma Below. Please download and replace this driver yourself when installing other MacOS versions
+ - Use [OCAuxiliaryTools](https://github.com/ic005k/OCAuxiliaryTools) build your SMBIOS
+ - Intel AX211 WiFi driver [AirportItlwm.kext](https://github.com/OpenIntelWireless/itlwm/releases)in this EFI is only applicable to MacOS 15 Sequoia Only. Please download and replace this driver yourself when installing other MacOS versions
+ - **WiFi Need [OCLP-Mod by laobamac](https://github.com/hackintosh-club/intel-nuc10/releases/tag/oclp) Patch**
  - To use a CPU with a Efficient-core, the Kernel - ProvideCurrentCpuinfo option in the configuration file must be checked
 
 ### Bios Setup
